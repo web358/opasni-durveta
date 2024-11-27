@@ -133,6 +133,23 @@
     }
   }
 
+  .stars {
+    background-color: white;
+    list-style: none;
+    border-radius: 10px;
+    width: 380px;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.815);
+    animation: fade-in 2s ease-in forwards;
+  }
+  .stars li {
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  .stars i {
+    color: #ff9c1a;
+  }
+
   @media screen and (max-width: 500px) {
     .side1 {
       display: none;
