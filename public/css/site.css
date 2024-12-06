@@ -29,11 +29,11 @@ h2 {
 
  footer {
   position: absolute;
-  margin-left: 40%;
+  margin-left: 36%;
   color: white;
+  text-shadow:  2px 1px 2px rgb(102, 85, 40);
 }
-
-a {
+footer a {
   color: white;
 }
 
