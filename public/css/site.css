@@ -33,6 +33,9 @@ h2 {
   color: white;
 }
 
+a {
+  color: white;
+}
 
   @keyframes slideInFromLeft {
     0% {
