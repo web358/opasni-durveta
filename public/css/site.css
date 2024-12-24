@@ -37,6 +37,7 @@ footer a {
   color: white;
 }
 
+
   @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
@@ -94,7 +95,7 @@ h3, h4, h5 {
       display: flex;
       justify-content: space-between;
       border-radius: 5px;
-      height: 100px;
+      height: 100px;    
   }
   .playBtn {
       border: none;
@@ -197,9 +198,40 @@ h3, h4, h5 {
     }
   
 }
-  footer {
+footer {
   margin-top: 5%;
   margin-left: 20%;
 }
+}
+@media screen and (width: 768px) {
+  .first, .second {
+    display: none;
+  }
+}
+@media screen and (width: 820px) {
+  .first, .second {
+    display: none;
+  }
+}
+@media screen and (width: 1024px) {
+  .first, .second {
+    display: none;
+  }
+}
+@media screen and (width: 912px) {
+  .first, .second {
+    display: none;
+  }
+}
+@media screen and (width: 540px) {
+  .first, .second {
+    display: none;
+  }
+}
+@media screen and (width: 853px) {
+  .first, .second {
+    /* ne raboti za asus z fold */
+    display: none;
+  }
 }
 
