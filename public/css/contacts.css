@@ -15,6 +15,19 @@
     animation: fade-in 2s ease-in forwards;
   }
 
+  .share {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 12%;
+    border: none;
+    border-radius: 5px;
+    background-color: #5d47a3;
+  }
+
+  .share a {
+    color: white;
+  }
+  
   
   @keyframes fade-in {
     0% {
@@ -159,4 +172,10 @@
     .side1 {
       display: none;
     }
+    .share {
+      margin-top: -10%;
+      margin-left: 42%;
+    }
   }
+
+  
